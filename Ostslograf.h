@@ -12,11 +12,12 @@ private:
 	double frequency;
 	double memory;
 	string brand;
+
 public:
 	Ostslograf();
 	Ostslograf(double f, double m, string b, int pod, string name, double f1, double f2);
 	~Ostslograf();
-	int podilka;
+	int TsinaOfPodilka;
 	string name;
 	double getfrequency();
 	double getmemory();

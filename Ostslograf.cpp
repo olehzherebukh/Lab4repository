@@ -27,7 +27,7 @@ Ostslograf::Ostslograf(double f, double m, string b, int pod, string n, double f
 	frequency(f),
 	memory(m),
 	brand(b),
-	podilka(pod),
+	TsinaOfPodilka(pod),
 	name(n),
 	frequency1(f1),
 	frequency2(f2)
@@ -39,8 +39,8 @@ Ostslograf::Ostslograf() :
 	frequency(2),
 	memory (5),
 	brand ("Audi"),
-	podilka(5),
-	name("Alezha"),
+	TsinaOfPodilka(5),
+	name("Oleh"),
 	frequency1(70),
 	frequency2(65)
 	{
